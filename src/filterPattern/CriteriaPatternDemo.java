@@ -3,6 +3,13 @@ package filterPattern;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Filter pattern or Criteria pattern is a design pattern that enables developers to filter
+ * a set of objects using different criteria and chaining them in a decoupled way through
+ * logical operations. This type of design pattern comes under structural pattern as this
+ * pattern combines multiple criteria to obtain single criteria.
+ */
+
 public class CriteriaPatternDemo {
     public static void main(String[] args) {
         List<Person> persons = new ArrayList<Person>();
